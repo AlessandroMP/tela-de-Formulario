@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100h;
 }
 
 .content{
@@ -58,7 +58,7 @@ h1{
     transition: 3s;
 }
 
-input:focus{
+.inputs:focus{
     border-color: var(--color-dodgeblue1);
 }
 .box-select{
@@ -82,7 +82,7 @@ button[type="submit"]{
 }
 
 button[type="submit"]:hover{
-    background-color: var(--color-dodgeblue2);
+    background-color: var(--color-red);
 }
 @media screen and (max-width:576px) {
     .box-select{
